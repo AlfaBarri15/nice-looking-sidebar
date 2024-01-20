@@ -1,3 +1,26 @@
+# How Alfa started the project on windows
+## Install Node.js
+
+Go install [Node.js](https://nodejs.org/en/download/current).
+
+## Install yarn
+1. Install yarn
+```
+npm install -g yarn
+```
+
+Verify the yarn is installed with ```yarn --version```
+
+If you can't run yarn scripts because of the exuction policy, try:
+```
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+```
+
+2. Set the yarn version to berry
+```
+yarn set version berry
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
